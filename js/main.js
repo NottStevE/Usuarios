@@ -4,6 +4,7 @@ import {users} from './data.js'
 let root = document.getElementById("root");
 
 // VARIABLE QUE ALMACENA UN LISTADP ORDENADO HECHO CON HTML
+let titulo = '<h1>' + 'Tabla de usuarios' + '</h1>';
 
 let table = '<table border="1">' + 
                 '<tr>' + '<td>' + 'Id' + '</td>' + '<td>' + 'User' + '</td>' + '<td>' + 'E-mail' + '</td>' + '</tr>' +
@@ -20,4 +21,4 @@ let table = '<table border="1">' +
              '</table>';
 
 // SE AGREGA LA ETIQUETA ROOT DEL DOM LA VARIABLE LISTADO
-root.innerHTML = table;
+root.innerHTML = titulo + table;
