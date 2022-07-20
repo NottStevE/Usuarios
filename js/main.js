@@ -4,10 +4,10 @@ import {users} from './data.js'
 let root = document.getElementById("root");
 
 // VARIABLE QUE ALMACENA UN LISTADP ORDENADO HECHO CON HTML
-let titulo = '<h1>' + 'Tabla de usuarios' + '</h1>';
+let titulo = '<h1 class="titulo">' + 'Tabla de usuarios' + '</h1>';
 
-let table = '<table border="1">' + 
-                '<tr>' + '<td>' + 'Id' + '</td>' + '<td>' + 'User' + '</td>' + '<td>' + 'E-mail' + '</td>' + '</tr>' +
+let table = '<table border="1" id="tabla">' + 
+                '<tr>' + '<td class="td">' + 'Id' + '</td>' + '<td class="td">' + 'User' + '</td>' + '<td class="td">' + 'E-mail' + '</td>' + '</tr>' +
                 '<tr>' + '<td>' + users[0].id + '</td>' + '<td>' + users[0].username + '</td>' + '<td>' + users[0].email + '</td>' + '</tr>' +
                 '<tr>' + '<td>' + users[1].id + '</td>' + '<td>' + users[1].username + '</td>' + '<td>' + users[1].email + '</td>' + '</tr>' +
                 '<tr>' + '<td>' + users[2].id + '</td>' + '<td>' + users[2].username + '</td>' + '<td>' + users[2].email + '</td>' + '</tr>' +
